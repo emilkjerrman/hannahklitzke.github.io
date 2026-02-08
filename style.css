@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont,
+               "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+nav {
+  position: fixed;
+  top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-decoration: none;
+  color: #000;
+}
+
+nav a:hover {
+  opacity: 0.6;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 400;
+  margin: 0;
+}
+
+p {
+  margin-top: 8px;
+  font-size: 16px;
+  opacity: 0.8;
+}
