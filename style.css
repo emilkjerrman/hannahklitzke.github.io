@@ -178,3 +178,14 @@ p {
 .vernissage-item img:hover {
   transform: scale(1.05);
 }
+
+
+.project-image {
+  text-align: center; /* centers the image */
+  margin: 20px 0;     /* spacing above and below */
+}
+
+.project-image img {
+  max-width: 100%;    /* responsive image */
+  height: auto;
+}
