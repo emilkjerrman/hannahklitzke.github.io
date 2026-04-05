@@ -156,6 +156,25 @@ p {
   transition: transform 0.3s ease;
 }
 
+/* Project page image styling */
+.project-image {
+  text-align: center;
+  margin-bottom: 2rem; /* space between image and text */
+}
+
+.project-image img {
+  max-width: 80%;       /* image scales with screen */
+  height: auto;
+  border-radius: 10px;  /* soft corners */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  cursor: pointer;      /* clickable feel */
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.project-image img:hover {
+  transform: scale(1.03); /* subtle zoom on hover */
+  opacity: 0.85;
+}
 .vernissage-item img:hover {
   transform: scale(1.05);
 }
