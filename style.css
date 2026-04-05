@@ -89,3 +89,47 @@ p {
 .project-item:hover .project-title {
   text-decoration: underline;
 }
+
+
+/* Project page container */
+.project-page {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Project header */
+.project-header h1 {
+  font-size: 3rem; /* bigger title */
+  margin-bottom: 0.2rem;
+  font-weight: 400;
+}
+
+.project-header .project-year {
+  font-size: 1.2rem;
+  color: #666;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* Project text styling */
+.project-text {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.project-text p {
+  margin-bottom: 1.2rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.project-text strong {
+  display: block;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #333;
+}
