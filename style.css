@@ -71,3 +71,21 @@ p {
   z-index: -1;   /* behind text */
   opacity: 0.85; /* subtle look */
 }
+
+/* Make image feel interactive */
+.portrait {
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.portrait:hover {
+  opacity: 0.6;
+}
+
+.project-item:hover {
+  opacity: 1;
+}
+
+.project-item:hover .project-title {
+  text-decoration: underline;
+}
