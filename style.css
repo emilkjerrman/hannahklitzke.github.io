@@ -133,3 +133,29 @@ p {
   font-size: 1.2rem;
   color: #333;
 }
+
+.vernissage-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.vernissage-item {
+  max-width: 250px;
+  text-align: center;
+}
+
+.vernissage-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.vernissage-item img:hover {
+  transform: scale(1.05);
+}
